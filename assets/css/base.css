@@ -18,6 +18,29 @@ body {
     flex-flow: column;
     width: 85%;
 }
+
+.header {
+    background-color: black;
+    min-height: 150px;
+}
+
+.contato-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .img-main {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.header .img-header-sobre {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 60%; 
+}
+
 .menu {
     width: 15%;
     background-color: #F44444;
@@ -36,20 +59,53 @@ body {
     color: #fff;
 }
 
-.header {
-    background-color: black;
-    min-height: 150px;
-}
-
-.header img {
-    margin-top: 30px;
-    margin-left: 30px;
-}
 .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+.endereco {
+    box-sizing:content-box;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.forms .forms-contact {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-contact fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-contact fieldset legend {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.forms-contact input {
+    padding: 3px;
+    width: 250px;
+    height: 15px;
+}
+
+.forms-contact button {
+    width: 80px;
+    margin: 5px 3px 0px 2px;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
 .footer {
     background-color: black;
     min-height: 150px;
