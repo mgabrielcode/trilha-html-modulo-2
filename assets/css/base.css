@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
     background-color: aquamarine;
 }
+
 .main {
     display: flex;
     flex-flow: column;
@@ -29,12 +30,12 @@ body {
     margin-left: 30px;
 }
 
-.header .contato {
+.header .contato, .sobre {
     display: flex;
     align-items: center;
 }
 
-.header .img-header-sobre {
+.header .img-header-contato, .img-header-sobre {
     margin-left: 30px;
     width: 60px;
 }
@@ -48,7 +49,6 @@ body {
 .menu {
     width: 15%;
     background-color: #F44444;
-    padding: 10px 20px 0px;
 }
 
 .pages-menu li {
@@ -64,12 +64,32 @@ body {
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: white;
     min-height: 300px;
     padding: 20px;
+}
+
+
+.content.content-contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sobre-missao {
+    display: flex;
+}
+
+.sobre-missao .missao, .visao, .valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding: 0px 15px 20px 15px;
+    margin: 5px;
+    background-color: #eb5151;
+    color: #f1f1f1;
+    border-radius: 30px;
 }
 
 .endereco {
