@@ -70,19 +70,44 @@ body {
 }
 
 .content-atendimento {
+    font-size: 20px;
+}
+
+.content-atendimento .content-tabela {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .tabela {
-    border-spacing: 0px;
-    width: 800px;
+    border-spacing: 2px;
+    width: 850px;
     font-size: 30px;
+    text-align: center;
 }
 
 .tabela th, td {
-    border: 1px solid black;
+    box-sizing: content-box;
+    padding: 0px 5px 0px 5px;
+}
+
+.tabela th {
+    background-color: #F44444;
+    color: #f1f1f1;
+}
+
+.tabela td {
+    border-bottom: 1px solid black;
+}
+
+.tabela #preco {
+    background-color: black;
+    width: 150px;
+}
+
+.tabela .preco-atendimento {
+    font-weight: 800;
+    color: black;
 }
 
 .content.content-contato {
