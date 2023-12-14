@@ -30,7 +30,7 @@ body {
     margin-left: 30px;
 }
 
-.header .contato, .sobre {
+.header, .contato, .sobre {
     display: flex;
     align-items: center;
 }
@@ -67,6 +67,27 @@ body {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+}
+
+.content .especialidades-main {
+    display: flex;
+}
+
+.content .especialidades-main p, h1 {
+    margin: 0px;
+}
+
+.content .especialidades-main h1 {
+    margin-bottom: 10px;
+}
+
+.content-main .psicologia, .clinica-medica {
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 4px 3px 41px -12px rgba(0,0,0,0.81);
+    -moz-box-shadow: 4px 3px 41px -12px rgba(0,0,0,0.81);
+    box-shadow: 4px 3px 41px -12px rgba(0,0,0,0.81);
+    border-radius: 10px;
 }
 
 .content-atendimento {
